@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obsidian Website</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(180deg, #000000, #ff0000 50%, #000000);
+            color: #fff;
+            min-height: 100vh;
+        }
+        .hero {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+            box-shadow: 0 4px 8px rgba(255, 0, 0, 0.4);
+            border-radius: 5px;
+            margin: 20px;
+        }
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+            text-shadow: 3px 3px 6px rgba(255, 0, 0, 0.8);
+        }
+        .hero p {
+            font-size: 18px;
+            text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.8);
+        }
+        .hero button {
+            padding: 15px 30px;
+            font-size: 16px;
+            color: white;
+            background-color: #5cb85c;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(255, 0, 0, 0.4);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .hero button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 8px rgba(255, 0, 0, 0.8);
+        }
+        .features {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .features h2 {
+            font-size: 28px;
+            margin-bottom: 30px;
+            text-shadow: 3px 3px 6px rgba(255, 0, 0, 0.8);
+        }
+        .features .feature-list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+        .features .feature-list div {
+            flex: 1 1 calc(33.333% - 60px);
+            min-width: 280px;
+            background-color: #1C1C1C;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(255, 0, 0, 0.4);
+            border-radius: 5px;
+        }
+        .features .feature-list div h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.8);
+        }
+        .features .feature-list div p {
+            text-shadow: 1px 1px 2px rgba(255, 0, 0, 0.8);
+        }
+        .cta {
+            background-color: #444;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(255, 0, 0, 0.4);
+            border-radius: 5px;
+        }
+        .cta h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            text-shadow: 3px 3px 6px rgba(255, 0, 0, 0.8);
+        }
+        .cta button {
+            padding: 15px 30px;
+            font-size: 16px;
+            color: white;
+            background-color: #5cb85c;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(255, 0, 0, 0.4);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .cta button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 8px rgba(255, 0, 0, 0.8);
+        }
+        .footer {
+            background-color: #1C1C1C;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            box-shadow: 0 -4px 8px rgba(255, 0, 0, 0.4);
+        }
+        .footer p {
+            margin: 0;
+            font-size: 14px;
+            text-shadow: 1px 1px 2px rgba(255, 0, 0, 0.8);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>Obsidian</h1>
+        <p>"We on top on skibidi"</p>
+        <button>Get Started</button>
+    </div>
+
+    <!-- Features Section -->
+    <div class="features">
+        <h2>Important Functions</h2>
+        <div class="feature-list">
+            <div>
+                <h3>Feature One</h3>
+                <p>Free</p>
+            </div>
+            <div>
+                <h3>Feature Two</h3>
+                <p>No Keysystem</p>
+            </div>
+            <div>
+                <h3>Feature Three</h3>
+                <p>Skbidi jumpscare</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bottom UI -->
+    <div class="cta">
+        <h2>Get Obsidian now!</h2>
+        <p>Join our community to get news about Obsidian!</p>
+        <button>Join the Discord</button>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>© 2024 Obsidian. All Rights Reserved.</p>
+    </div>
+
+</body>
+</html>
